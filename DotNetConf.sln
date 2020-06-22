@@ -7,7 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetConf", "DotNetConf\Do
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6E5FBEF-0073-4934-8499-2BC732FE9641}"
 	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
 		nuget.config = nuget.config
 	EndProjectSection
 EndProject
