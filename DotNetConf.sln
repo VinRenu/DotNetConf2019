@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		nuget.config = nuget.config
 	EndProjectSection
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Dotnet-setup", "Dotnet-setup\Dotnet-setup.vdproj", "{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,17 @@ Global
 		{1DB31A86-1901-4CC7-A8CC-9AC20151622F}.Release|x64.Build.0 = Release|Any CPU
 		{1DB31A86-1901-4CC7-A8CC-9AC20151622F}.Release|x86.ActiveCfg = Release|Any CPU
 		{1DB31A86-1901-4CC7-A8CC-9AC20151622F}.Release|x86.Build.0 = Release|Any CPU
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Debug|Any CPU.ActiveCfg = Debug
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Debug|Any CPU.Build.0 = Debug
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Debug|ARM.ActiveCfg = Debug
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Debug|ARM64.ActiveCfg = Debug
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Debug|x64.ActiveCfg = Debug
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Debug|x86.ActiveCfg = Debug
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Release|Any CPU.ActiveCfg = Release
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Release|ARM.ActiveCfg = Release
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Release|ARM64.ActiveCfg = Release
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Release|x64.ActiveCfg = Release
+		{B36DE1B7-CAE7-4DC4-8A12-581638BF856A}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
