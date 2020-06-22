@@ -9,6 +9,13 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '**/.sln'
+
+
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
@@ -23,6 +30,7 @@ steps:
     zipAfterPublish: false
     modifyOutputPath: false
     arguments: --output $(Build.ArtifactStagingDirectory)
+
 
 - task: PublishPipelineArtifact@1
   inputs:
