@@ -10,29 +10,8 @@ variables:
 
 steps:
 
-- task: DotNetCoreCLI@2
+-
+- task: VSBuild@1
   inputs:
-    command: 'build'
-    projects: '**/.sln'
-
-
-- task: UseDotNet@2
-  inputs:
-    packageType: 'sdk'
-    version: '2.1.x'
-    installationPath: $(Agent.ToolsDirectory)/dotnet
-    includePreviewVersions: true
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'publish'
-    publishWebProjects: false
-    zipAfterPublish: false
-    modifyOutputPath: false
-    arguments: --output $(Build.ArtifactStagingDirectory)
-
-
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Build.ArtifactStagingDirectory)'
-    artifact: 'Calculator'
+    solution: '**\*.sln'
+    vsVersion: '16.0'
